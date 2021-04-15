@@ -1,6 +1,6 @@
 import React from "react";
-import ClassCounter from "./components/ClassCounter.jsx";
-import HookCounter from "./components/HookCounter.jsx";
+import ClassCounter from "./components/ClassComponents/ClassCounter.jsx";
+import HookCounter from "./components/Hooks/HookCounter.jsx";
 
 function App() {
   return (
