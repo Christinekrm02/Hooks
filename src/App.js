@@ -10,13 +10,14 @@ import HookCounterWithObj from "./components/Hooks/HookCounterWithObj.jsx";
 import HookCounterWithArr from "./components/Hooks/HookCounterWithArr";
 // eslint-disable-next-line no-unused-vars
 import ClassCounterUE from "./components/ClassComponents/ClassCounterUE";
-import ClassCounterConditionalUE from "./components/ClassCounterConditionalUE";
+//import ClassCounterConditionalUE from "./components/ClassCounterConditionalUE";
 //import HookCounterUE from "./components/Hooks/HookCounterUE";
+import HookCounterConditionalUE from "./components/Hooks/HookCounterConditionalUE";
 
 function App() {
   return (
     <div className="App">
-      <ClassCounterConditionalUE />
+      <HookCounterConditionalUE />
     </div>
   );
 }
