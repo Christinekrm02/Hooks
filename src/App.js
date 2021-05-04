@@ -12,12 +12,13 @@ import HookCounterWithArr from "./components/Hooks/HookCounterWithArr";
 import ClassCounterUE from "./components/ClassComponents/ClassCounterUE";
 //import ClassCounterConditionalUE from "./components/ClassCounterConditionalUE";
 //import HookCounterUE from "./components/Hooks/HookCounterUE";
-import HookCounterConditionalUE from "./components/Hooks/HookCounterConditionalUE";
+//import HookCounterConditionalUE from "./components/Hooks/HookCounterConditionalUE";
+import ClassComponentRunOnceUE from "./components/ClassComponents/ClassComponentRunOnceUE";
 
 function App() {
   return (
     <div className="App">
-      <HookCounterConditionalUE />
+      <ClassComponentRunOnceUE />
     </div>
   );
 }
